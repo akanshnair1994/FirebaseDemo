@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseTutorial</string>
+    <string name="login_title_string">Login Here!</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_string">Login/Register</string>
+    <string name="register_link_string">Register Here..</string>
+</resources>
