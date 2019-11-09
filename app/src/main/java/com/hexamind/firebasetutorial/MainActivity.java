@@ -42,20 +42,6 @@ public class MainActivity extends AppCompatActivity {
         db = FirebaseDatabase.getInstance();
         ref = db.getReference("users");
 
-        /*ref.setValue("Hello");
-        ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Toast.makeText(MainActivity.this, "Value added successfully", Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(MainActivity.this, "There was some problem", Toast.LENGTH_SHORT).show();
-                Log.e(TAG, "Error: " + databaseError.toException());
-            }
-        });*/
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
